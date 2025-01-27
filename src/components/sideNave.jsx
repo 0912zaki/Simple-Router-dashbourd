@@ -17,7 +17,7 @@ const SideNav = ({ children }) => {
 
     return <>
 
-        <div style={{ width: isOpen === true ? "8%" : "" }} className="bg-blue-500 w-[22%] h-screen fixed transition-all duration-700">
+        <div style={{ width: isOpen === true ? "8%" : "" }} className="bg-green-500 w-[22%] h-screen fixed transition-all duration-700">
             <Hero/>
 
             <i style={{ display: isOpen === true ? "none" : "" }} onClick={handleIsOpen} className="fa-solid fa-bars text-4xl text-white absolute right-2 top-1"></i>
